@@ -2,10 +2,11 @@
 # Author: Antonio Carretero Sahuquillo
 # My first bash script. Just a hello world with a few more options ;3
 
-#Variables introducidas como argumentos
+#Options var
 option1=$1
 option2=$2
 option3=$3
+
 
 ######################
 ### MASSIVE PRINTS ###
@@ -35,7 +36,6 @@ h_menu()
 ###############################
 ### OPTIONS IMPLEMENTATIONS ###
 ###############################
-
 #Help menu option
 if [[ $option1 = "-h" ]] || [[ $option1 = "--help" ]] ; then 
 
